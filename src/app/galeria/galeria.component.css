@@ -1,0 +1,30 @@
+.photos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+
+.photos a {
+    width: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+}
+
+h1 {
+    background: none;
+    color: darkblue;
+    font-weight: 100;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+}

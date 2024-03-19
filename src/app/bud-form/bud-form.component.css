@@ -1,0 +1,40 @@
+ul {
+    list-style-type: square;
+}
+
+form{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    font-weight: bold;
+    width:90%;
+    margin: 1.5%;
+    border: 1pt solid darkblue;
+    padding: 3%;
+}
+
+label {
+    color:darkblue;
+}
+
+label.inp {
+    color:darkblue;
+    padding: 2%;
+}
+
+input {
+    border-radius: 2em;
+}
+
+.btn2{
+    background-color: darkblue;
+    border: none;
+    padding: 1%;
+    margin: 2%;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: gray;
+    color: white;
+    scale: 1.1;
+}

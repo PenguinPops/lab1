@@ -1,0 +1,34 @@
+table {
+    background:#ffffb3;
+    text-align:center;
+    width:94%;
+    margin:2%;
+    border:1pt solid #000040;
+    border-collapse: separate;
+}
+
+table caption {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+thead, tfoot {
+    background-color: darkblue;
+    color: white;
+    font-size: 110%;
+    padding: 5pt;
+}
+
+table td, th {
+    border: 1pt solid darkblue;
+    border-style: solid;
+
+}
+
+tfoot a {
+    color: white;
+}
+
+*.parz{
+    background:#ffffff;
+}
