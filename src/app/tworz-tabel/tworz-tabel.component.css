@@ -29,6 +29,7 @@ tfoot a {
     color: white;
 }
 
-*.parz{
+table tbody tr:nth-child(2n){
     background:#ffffff;
 }
+

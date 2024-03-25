@@ -7,11 +7,11 @@
       <li>&lt;button&gt; - pole formularza typu przycisk</li>
     </ul>
   </section>
-<div>
+<section>
   <h3>Podstawowy formularz HTML</h3>
     <form action="mailto:s99689@pollub.edu.pl" method="post">
-    <label for="surname" class="inp">Nazwisko: </label> <input type="text" name="surname" id="surname"/> <br />
-    <label for="age" class="inp">Wiek: </label><input type="text" name="age" id="age"/> <br />
+    <label for="surname" class="inp">Nazwisko*: </label> <input type="text" name="surname" id="surname"  required pattern="^[A-Za-z'-]+(?:-[A-Za-z']+)?$"/> <br />
+    <label for="age" class="inp">Wiek: </label><input type="text" name="age" id="age" pattern="age"/> <br />
     <label for="kraj" class="inp">Państwo: </label>
     <select id="kraj" name="kraj" class="selector">
       <option value="pl" selected>Polska</option>
@@ -19,7 +19,7 @@
       <option value="fr">Francja</option>
       <option value="uk">Wielka Brytania</option>
     </select><br />
-    <label for="emil" class="inp">Adres e-mail: </label><input type="text" name="age"/> <br />
+    <label for="emil" class="inp">Adres e-mail*: </label><input type="text" name="email" required placeholder="email@page.com" pattern="email"/> <br />
     <br />
     Zamawiam tutorial z języka: <br />
     <input type="checkbox" name="C" value="C" /><label for="C">Język C/C++</label> 
@@ -34,4 +34,4 @@
     <input type="submit" value="Wyślij" class="btn2"/>
     <input type="reset" value="Anuluj" class="btn2"/>
     </form>
-</div>
+  </section>

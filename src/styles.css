@@ -4,17 +4,10 @@ body {
     color:#000040;
     }
 
-h1, h2, #stopka {
+h1, h2, footer {
         background: #000040;
         color: #8080ff;
         text-align:center;
 }
 
-#menu {
-    background-color: white;
-}
-
-#tresc {
-    background-color: lightblue;
-}
 
