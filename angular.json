@@ -27,7 +27,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/functions/raty2.js",
+              "src/assets/functions/walidacja.js"
+            ]
           },
           "configurations": {
             "production": {
